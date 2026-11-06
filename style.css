@@ -286,3 +286,22 @@ footer {
 .t4 { background-image: url("interior4.jpg"); }
 .t5 { background-image: url("interior5.jpg"); }
 .t6 { background-image: url("interior6.jpg"); }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.tile {
+  height: 140px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  background-color: #e8892b;
+}
+
+@media (min-width: 700px) {
+  .gallery { grid-template-columns: repeat(3, 1fr); }
+  .tile { height: 200px; }
+}
