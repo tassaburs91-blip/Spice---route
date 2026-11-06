@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spice Route | Indian Kitchen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <h1 class="logo">Spice Route</h1>
+    <button id="menuBtn" aria-label="Menu">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+   <span id="status" class="status"></span> 
+    <h2>Authentic Flavours of India</h2>
+    <p>Slow-cooked curries, tandoor-fired breads, and spices ground fresh daily.</p>
+    <a href="#contact" class="btn">Reserve a Table</a>
+  </section>
+<section class="special">
+  <span>⭐ Chef's Special</span>
+  <h3>Lamb Rogan Josh + Garlic Naan</h3>
+  <p>Combo at ₹499 this week only</p>
+</section>
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <div class="tabs">
+      <button class="tab active" data-cat="all">All</button>
+      <button class="tab" data-cat="starter">Starters</button>
+      <button class="tab" data-cat="main">Mains</button>
+      <button class="tab" data-cat="bread">Breads</button>
+    </div>
+    <div class="menu-grid" id="menuGrid"></div>
+  </section>
+<section id="gallery" class="section">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <div class="tile t1"></div>
+    <div class="tile t2">🫓</div>
+    <div class="tile t3">🍗</div>
+    <div class="tile t4">🥘</div>
+    <div class="tile t5">🍚</div>
+    <div class="tile t6">🫖</div>
+  </div>
+</section><section id="reviews" class="section alt">
+  <h2>What Guests Say</h2>
+  <div class="reviews">
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p>"The butter chicken tastes just like home. Best naan in town!"</p>
+      <span>Priya S.</span>
+    </div>
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p>"Warm service and amazing dal makhani. We come every weekend."</p>
+      <span>Rahul M.</span>
+    </div>
+    <div class="review">
+      <div class="stars">★★★★☆</div>
+      <p>"Great food and a lovely atmosphere. Perfect for family dinners."</p>
+      <span>Anita K.</span>
+    </div>
+  </div>
+</section>
+  <section id="about" class="section alt">
+    <h2>Our Story</h2>
+    <p>Family recipes passed down three generations, served in a warm, welcoming space.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Reserve a Table</h2>
+    <form id="resForm">
+      <input type="text" placeholder="Your name" required>
+      <input type="tel" placeholder="Phone number" required>
+      <input type="date" required>
+      <button type="submit" class="btn">Book Now</button>
+    </form>
+    <p id="formMsg"></p>
+  </section>
+<section id="visit" class="section alt">
+  <h2>Visit Us</h2>
+  <p>12 Spice Lane, Your City</p>
+  <p>📞 +91 98765 43210</p>
+  <ul class="hours">
+    <li>Mon–Fri: 12 pm – 10:30 pm</li>
+    <li>Sat–Sun: 12 pm – 11:30 pm</li>
+  </ul>
+  <a class="btn" target="_blank"
+     href="https://wa.me/919876543210?text=Hi%2C%20I%27d%20like%20to%20order">
+     💬 Order on WhatsApp</a>
+</section>
+
+<div class="bottom-bar">
+  <a href="tel:+919876543210">📞 Call</a>
+  <a href="https://wa.me/919876543210" target="_blank">💬 WhatsApp</a>
+</div>
+  <footer>© 2026 Spice Route. Demo website.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
