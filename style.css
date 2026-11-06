@@ -279,3 +279,10 @@ footer {
 @media (min-width: 700px) {
   .reviews { grid-template-columns: repeat(3, 1fr); }
 }
+.tile { font-size: 0; }
+.t1 { background-image: url("interior1.jpg"); }
+.t2 { background-image: url("interior2.jpg"); }
+.t3 { background-image: url("dish1.jpg"); }
+.t4 { background-image: url("dish2.jpg"); }
+.t5 { background-image: url("dish3.jpg"); }
+.t6 { background-image: url("dish4.jpg"); }
