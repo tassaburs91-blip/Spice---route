@@ -305,3 +305,23 @@ footer {
   .gallery { grid-template-columns: repeat(3, 1fr); }
   .tile { height: 200px; }
 }
+.services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.service {
+  background: #fff;
+  padding: 18px 10px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,.08);
+}
+.service span { font-size: 2rem; }
+.service h3 { color: var(--maroon); margin: 6px 0 2px; font-size: 1.05rem; }
+.service p { font-size: .85rem; }
+
+@media (min-width: 700px) {
+  .services { grid-template-columns: repeat(3, 1fr); }
+}
